@@ -1,0 +1,67 @@
+p.speech {
+	position: absolute;
+	/* width: 100px; */
+	width: -moz-fit-content;
+    width: fit-content;
+	height: fit-content;
+	text-align: left;
+	line-height: 25px;
+	background-image: linear-gradient(to right, red , yellow);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+	margin-top: 10px;
+	border: 0px solid #666;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	font-size: 16px;
+    font-weight: bolder;
+	margin-right: 30%;
+	word-wrap: break-word;
+	animation: chatanimcloud 0.25s linear 0s 1 normal none;
+}
+.cloudbr
+{
+	position: absolute;
+	width: 12%;
+	height: 12%;
+	background-image: linear-gradient(to right, red , yellow);
+}
+.userspeech
+{
+    right: 0;
+	margin-left: 30%;
+    margin-right: 5px;
+    /* top: 100px;  */
+	top: auto;
+    margin-top: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+	position: absolute;
+	/* width: 100px; */
+	width: -moz-fit-content;
+    width: fit-content;
+	height: fit-content;
+	text-align: left;
+	line-height: 50px;
+	background-image: linear-gradient(to right, red , yellow);
+	border: 0px solid #666;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	font-size: 16px;
+    font-weight: bolder;
+}
+@keyframes chatanimcloud
+{ 
+0%{    opacity: 0;
+}
+100%{    opacity: 1}
+}
